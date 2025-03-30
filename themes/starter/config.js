@@ -64,11 +64,23 @@ const CONFIG = {
   STARTER_ABOUT_TITLE: '四足机器狗',
   STARTER_ABOUT_TEXT:
     '灯哥开源，舵机驱动，成本低，功能多。',
-  // STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   // STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/IMG_20250330_212433.png',
-  //STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  // STARTER_ABOUT_TIPS_1: '7000+',
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/1743340440086.jpg',
+  STARTER_ABOUT_TIPS_1: '作品一',
+  // STARTER_ABOUT_TIPS_2: '博客站点',
+  // STARTER_ABOUT_TIPS_3: '正在线上运行',
+
+  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_TITLE: '自动泊车小车',
+  STARTER_ABOUT_TEXT:
+    '全国电子设计竞赛作品，满分设计，基于oenmv视觉识别。',
+  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+  // STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_IMAGE_1: '/images/starter/about/IMG_20250330_214401.jpg',
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/IMG_20250330_214321.jpg',
+  STARTER_ABOUT_TIPS_1: '作品二',
   // STARTER_ABOUT_TIPS_2: '博客站点',
   // STARTER_ABOUT_TIPS_3: '正在线上运行',
 
