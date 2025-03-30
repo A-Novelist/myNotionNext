@@ -202,32 +202,32 @@ const CONFIG = {
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+    '创境科技工作室 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
-  STARTER_TEAM_ITEMS: [
-    {
-      STARTER_TEAM_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
-      STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
-    },
-    {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
-    },
-    {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
-    },
-    {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
-    }
-  ],
+  // STARTER_TEAM_ITEMS: [
+  //   {
+  //     STARTER_TEAM_ITEM_AVATAR:
+  //       'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
+  //     STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
+  //     STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+  //   },
+  //   {
+  //     STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
+  //     STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
+  //     STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+  //   },
+  //   {
+  //     STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
+  //     STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
+  //     STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+  //   },
+  //   {
+  //     STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
+  //     STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
+  //     STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+  //   }
+  // ],
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
@@ -258,39 +258,39 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
-  STARTER_BRANDS: [
-    {
-      IMAGE: '/images/starter/brands/graygrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
-      URL: 'https://graygrids.com/',
-      TITLE: 'graygrids'
-    },
-    {
-      IMAGE: '/images/starter/brands/lineicons.svg',
-      IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
-      URL: 'https://lineicons.com/',
-      TITLE: 'lineicons'
-    },
-    {
-      IMAGE: '/images/starter/brands/uideck.svg',
-      IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
-      URL: 'https://uideck.com/',
-      TITLE: 'uideck'
-    },
-    {
-      IMAGE: '/images/starter/brands/ayroui.svg',
-      IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
-      URL: 'https://ayroui.com/',
-      TITLE: 'ayroui'
-    },
-    {
-      IMAGE: '/images/starter/brands/tailgrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
-      TITLE: 'tailgrids'
-    }
-  ],
+  // STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  // STARTER_BRANDS: [
+  //   {
+  //     IMAGE: '/images/starter/brands/graygrids.svg',
+  //     IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
+  //     URL: 'https://graygrids.com/',
+  //     TITLE: 'graygrids'
+  //   },
+  //   {
+  //     IMAGE: '/images/starter/brands/lineicons.svg',
+  //     IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
+  //     URL: 'https://lineicons.com/',
+  //     TITLE: 'lineicons'
+  //   },
+  //   {
+  //     IMAGE: '/images/starter/brands/uideck.svg',
+  //     IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
+  //     URL: 'https://uideck.com/',
+  //     TITLE: 'uideck'
+  //   },
+  //   {
+  //     IMAGE: '/images/starter/brands/ayroui.svg',
+  //     IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
+  //     URL: 'https://ayroui.com/',
+  //     TITLE: 'ayroui'
+  //   },
+  //   {
+  //     IMAGE: '/images/starter/brands/tailgrids.svg',
+  //     IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
+  //     URL: '"https://tailgrids.com/',
+  //     TITLE: 'tailgrids'
+  //   }
+  // ],
 
   STARTER_FOOTER_SLOGAN: '科技美学  创无止境',
 
