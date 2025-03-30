@@ -55,7 +55,7 @@ const CONFIG = {
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '开发便捷', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '极易使用，零基础二次开发，无需学习复杂技能体系', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '极易使用，零基础二次开发，无需复杂知识', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
