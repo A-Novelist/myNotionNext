@@ -55,7 +55,7 @@ const CONFIG = {
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '开发便捷', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '极易使用，零基础二次开发', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '极易使用，零基础二次开发，无需学习复杂技能体系', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
@@ -231,23 +231,23 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: '工作室博客',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的新闻',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '这里会发布一些关于创境科技工作室的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，浙江',
-  STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'chuangjingtech.cn',
+  // STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  // STARTER_CONTACT_TITLE: '联系我们',
+  // STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
+  // STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  // STARTER_CONTACT_LOCATION_TEXT: '中国，浙江',
+  // STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
+  // STARTER_CONTACT_EMAIL_TEXT: 'chuangjingtech.cn',
 
-  // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
+  // // 嵌入外部表单
+  // STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
@@ -292,7 +292,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '科技美学  创无止境。',
+  STARTER_FOOTER_SLOGAN: '科技美学  创无止境',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
