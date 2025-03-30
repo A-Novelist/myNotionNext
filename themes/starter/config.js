@@ -61,19 +61,19 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '四足机器狗',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
-  STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
-  STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+    '灯哥开源，舵机驱动，成本低，功能多。',
+  // STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+  // STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_IMAGE_1: '/images/starter/about/IMG_20250330_212433.png',
+  //STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
+  // STARTER_ABOUT_TIPS_1: '7000+',
+  // STARTER_ABOUT_TIPS_2: '博客站点',
+  // STARTER_ABOUT_TIPS_3: '正在线上运行',
 
   // 首页价格区块
-  // STARTER_PRICING_ENABLE: true, // 价格区块开关
+  STARTER_PRICING_ENABLE: false, // 价格区块开关
   // STARTER_PRICING_TITLE: '价格表',
   // STARTER_PRICING_TEXT_1: '很棒的定价计划',
   // STARTER_PRICING_TEXT_2:
@@ -111,7 +111,7 @@ const CONFIG = {
   //   'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
   // 首页用户测评区块
-  // STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
+  STARTER_TESTIMONIALS_ENABLE: false, // 测评区块开关
   // STARTER_TESTIMONIALS_TITLE: '用户反馈',
   // STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   // STARTER_TESTIMONIALS_TEXT_2:
@@ -176,7 +176,7 @@ const CONFIG = {
   // ],
 
   //   FAQ 常见问题模块
-  // STARTER_FAQ_ENABLE: true, // 常见问题模块开关
+  STARTER_FAQ_ENABLE: false, // 常见问题模块开关
   // STARTER_FAQ_TITLE: '常见问题解答',
   // STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   // STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -238,7 +238,7 @@ const CONFIG = {
     '这里会发布一些关于创境科技工作室的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_ENABLE: false, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
@@ -258,7 +258,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  // STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   // STARTER_BRANDS: [
   //   {
   //     IMAGE: '/images/starter/brands/graygrids.svg',
