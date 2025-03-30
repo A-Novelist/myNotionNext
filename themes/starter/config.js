@@ -11,7 +11,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '创境科技工作室', // 英雄区文字
-  STARTER_HERO_TITLE_2: '科技美学  创无止境', // 英雄区文字
+  STARTER_HERO_TITLE_2: '科技美学   创无止境', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -34,9 +34,9 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '产品特性', // 特性
-  STARTER_FEATURE_TEXT_1: '科技  美学  创意', // 特性
+  STARTER_FEATURE_TEXT_1: '科技    美学    创意', // 特性
   STARTER_FEATURE_TEXT_2:
-    '我们的工作室愿景是，将美学融入科技，设计如艺术品般的智能电子产品。 ', // 特性
+    '工作室愿景是，将美学融入科技，设计如艺术品般的智能电子产品。 ', // 特性
 
   STARTER_FEATURE_1_TITLE_1: '极具美学', // 特性1
   STARTER_FEATURE_1_TEXT_1: '简约而富有创意，追求艺术品般的设计理念', // 特性1
@@ -198,11 +198,11 @@ const CONFIG = {
   //   '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
-  STARTER_TEAM_TEXT_2:
-    '创境科技工作室 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+  // STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  // STARTER_TEAM_TITLE: '团队成员',
+  // STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  // STARTER_TEAM_TEXT_2:
+  //   '创境科技工作室 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   // STARTER_TEAM_ITEMS: [
@@ -238,13 +238,13 @@ const CONFIG = {
     '这里会发布一些关于创境科技工作室的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
   // 联系模块
-  // STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  // STARTER_CONTACT_TITLE: '联系我们',
-  // STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  // STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  // STARTER_CONTACT_LOCATION_TEXT: '中国，浙江',
+  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_TITLE: '联系我们',
+  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
+  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  STARTER_CONTACT_LOCATION_TEXT: '中国，浙江',
   // STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  // STARTER_CONTACT_EMAIL_TEXT: 'chuangjingtech.cn',
+  STARTER_CONTACT_EMAIL_TEXT: 'chuangjingtech.cn',
 
   // // 嵌入外部表单
   // STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
