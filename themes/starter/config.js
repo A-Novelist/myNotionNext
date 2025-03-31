@@ -59,23 +59,23 @@ const CONFIG = {
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
-  // // 首页ABOUT区块
-  // STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  // STARTER_ABOUT_TITLE: '四足机器狗',
-  // STARTER_ABOUT_TEXT:
-  //   '灯哥开源，舵机驱动，成本低，功能多。',
-  // STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  // // STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
-  // STARTER_ABOUT_IMAGE_1: '/images/starter/about/IMG_20250330_212433.png',
-  // STARTER_ABOUT_IMAGE_2: '/images/starter/about/1743340440086.jpg',
-  // STARTER_ABOUT_TIPS_1: '作品一',
-  // // STARTER_ABOUT_TIPS_2: '博客站点',
-  // // STARTER_ABOUT_TIPS_3: '正在线上运行',
+  // 首页ABOUT区块
+  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_TITLE_1: '四足机器狗',
+  STARTER_ABOUT_TEXT_1:
+    '灯哥开源，舵机驱动，成本低，功能多。',
+  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+  // STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_IMAGE_1: '/images/starter/about/IMG_20250330_214401.jpg',
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/1743340440086.jpg',
+  STARTER_ABOUT_TIPS_1: '竞赛与项目作品',
+  // STARTER_ABOUT_TIPS_2: '博客站点',
+  // STARTER_ABOUT_TIPS_3: '正在线上运行',
 
   // STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  // STARTER_ABOUT_TITLE: '自动泊车小车',
-  // STARTER_ABOUT_TEXT:
-  //   '全国电子设计竞赛作品，满分设计，基于oenmv视觉识别。',
+  STARTER_ABOUT_TITLE_2: '自动泊车小车',
+  STARTER_ABOUT_TEXT_2:
+    '全国电子设计竞赛作品，满分设计，基于oenmv视觉识别。',
   // STARTER_ABOUT_BUTTON_TEXT: '了解更多',
   // // STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   // STARTER_ABOUT_IMAGE_1: '/images/starter/about/IMG_20250330_214401.jpg',
@@ -84,28 +84,28 @@ const CONFIG = {
   // // STARTER_ABOUT_TIPS_2: '博客站点',
   // // STARTER_ABOUT_TIPS_3: '正在线上运行',
 
-  const aboutBlocks = [
-  {
-    enable: true,
-    title: '四足机器狗',
-    text: '灯哥开源，舵机驱动，成本低，功能多。',
-    buttonText: '了解更多',
-    buttonUrl: 'https://docs.tangly1024.com/about',
-    image1: '/images/starter/about/IMG_20250330_212433.png',
-    image2: '/images/starter/about/1743340440086.jpg',
-    tips: ['作品一', '博客站点', '正在线上运行']
-  },
-  {
-    enable: true,
-    title: '自动泊车小车',
-    text: '全国电子设计竞赛作品，满分设计，基于oenmv视觉识别。',
-    buttonText: '了解更多',
-    buttonUrl: 'https://docs.tangly1024.com/about',
-    image1: '/images/starter/about/IMG_20250330_214401.jpg',
-    image2: '/images/starter/about/IMG_20250330_214321.jpg',
-    tips: ['作品二']
-  }
-];
+//   const aboutBlocks = [
+//   {
+//     enable: true,
+//     title: '四足机器狗',
+//     text: '灯哥开源，舵机驱动，成本低，功能多。',
+//     buttonText: '了解更多',
+//     buttonUrl: 'https://docs.tangly1024.com/about',
+//     image1: '/images/starter/about/IMG_20250330_212433.png',
+//     image2: '/images/starter/about/1743340440086.jpg',
+//     tips: ['作品一', '博客站点', '正在线上运行']
+//   },
+//   {
+//     enable: true,
+//     title: '自动泊车小车',
+//     text: '全国电子设计竞赛作品，满分设计，基于oenmv视觉识别。',
+//     buttonText: '了解更多',
+//     buttonUrl: 'https://docs.tangly1024.com/about',
+//     image1: '/images/starter/about/IMG_20250330_214401.jpg',
+//     image2: '/images/starter/about/IMG_20250330_214321.jpg',
+//     tips: ['作品二']
+//   }
+// ];
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
@@ -266,11 +266,11 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '工作室博客',
+  STARTER_BLOG_TITLE: '',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: '竞赛经历',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于创境科技工作室的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '国家级、省级、校级竞赛十余项。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
