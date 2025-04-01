@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '创境科技工作室', // 英雄区文字
+  STARTER_HERO_TITLE_1: '创境科技-康诗远的个人工作室', // 英雄区文字
   STARTER_HERO_TITLE_2: '科技美学   创无止境', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
@@ -274,9 +274,9 @@ const CONFIG = {
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
-  STARTER_CONTACT_TITLE: '联系我们',
-  STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
-  STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
+  STARTER_CONTACT_TITLE: '联系诗远',
+  STARTER_CONTACT_TEXT: '告诉我您遇到的问题',
+  STARTER_CONTACT_LOCATION_TITLE: '我的位置',
   STARTER_CONTACT_LOCATION_TEXT: '中国，浙江',
   // STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
   STARTER_CONTACT_EMAIL_TEXT: 'chuangjingtech.cn',
@@ -332,9 +332,9 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: '关于诗远',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
+        { TITLE: '诗远主页', URL: '/#home' },
         // { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
         {
           TITLE: '帮助支持',
